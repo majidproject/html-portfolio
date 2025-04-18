@@ -1,0 +1,123 @@
+
+.logo-head{
+    height: 72px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    z-index: 0;  
+}
+
+.logo-head-benz {
+    height: 38px;
+    width: 38px;
+}
+
+.logo-link-left {
+    text-decoration: none;
+    margin-top: 17px;
+    display: flex;
+    justify-content: flex-end;    
+    color: rgb(170, 170, 170);
+    padding: 10px 20px; 
+    z-index: 1;
+    position: absolute;
+    font-size: 12px;
+}
+
+.logo-link-left1 {
+    margin-left: 0;
+}
+
+.logo-link-left2 {
+    margin-left: 60px;
+}
+
+.logo-link-left3 {
+    margin-left: 120px;
+}
+
+.shild {
+    margin-left: 50px;
+    margin-top: 17px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    color: rgb(170, 170, 170);
+    padding: 10px 20px; 
+    z-index: 1;
+    position: absolute;
+    font-size: 12px;
+}
+
+.logo-link-left:hover{
+    color: rgb(255, 255, 255); 
+}
+
+.logo-link-right{
+    text-decoration: none;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: rgb(170, 170, 170);
+    padding: 10px 20px; 
+    z-index: 1;
+    position: absolute;
+    font-size: 12px; 
+}
+
+.logo-link-right:hover {  
+    color: rgb(255, 255, 255); 
+}
+
+.logo-link-right4 {
+    margin-left: 530px;
+}
+
+.logo-link-right5{
+    margin-left: 640px;
+}
+
+#search-icon {
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+.head-video {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+    transform: translate(-50%, -50%);  
+    z-index: -1; /* ویدیو را در پس‌زمینه قرار می‌دهد */  
+} 
+
+video {  
+    display: block; /* برای نمایش ویدیو به صورت بلاک */  
+    margin: 0 auto; /* تنظیم حاشیه برای مرکز بودن */  
+}  
+/* مخفی کردن کنترل‌ها */  
+video::-webkit-media-controls {  
+    display: none !important;  
+}
+
+.head-menu {  
+    margin-top: 72px;
+    position: relative;  
+    z-index: 1; /* محتوا را بر روی ویدیو قرار می‌دهد */  
+    color: white;  
+    text-align: center;  
+    padding: 20px;  
+    background-color: rgba(1, 1, 1, .5);
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
